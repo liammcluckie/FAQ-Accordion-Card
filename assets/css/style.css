@@ -48,7 +48,8 @@ section {
    align-items: flex-start;
    margin: auto;
    box-shadow: 0 1px 50px -15px;
-   overflow: hidden; /*To hide the overflow of main image*/
+   overflow-x: hidden; /*To hide the overflow of main image*/
+   overflow-y: scroll;
    background-image: url("../images/bg-pattern-desktop.svg");
    background-repeat: no-repeat;
    background-size: 900px;
@@ -94,10 +95,14 @@ hr {
 
 /*------Main Image Woman------*/
 
-.main-image {
+.main-image-parent {
+    position: fixed;
+    overflow: hidden;
+}
+
+.main-image-child {
     position: relative;
-    left: -540px;
-    bottom: -20px;
+    left: -80px;
 }
 
 /*-------Box Image------*/
