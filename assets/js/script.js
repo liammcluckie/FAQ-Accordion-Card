@@ -19,3 +19,25 @@ $("#question-four").click(function() {
 $("#question-five").click(function() {
     $("#answer-five").toggle(400);
 });
+
+//Function for changing .Questions style
+
+$("#question-one").click(function() {
+    $("#question-one").toggleClass("clicked-question");
+});
+
+$("#question-two").click(function() {
+    $("#question-two").toggleClass("clicked-question");
+});
+
+$("#question-three").click(function() {
+    $("#question-three").toggleClass("clicked-question");
+});
+
+$("#question-four").click(function() {
+    $("#question-four").toggleClass("clicked-question");
+});
+
+$("#question-five").click(function() {
+    $("#question-five").toggleClass("clicked-question");
+});
