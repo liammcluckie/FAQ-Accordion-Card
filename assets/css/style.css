@@ -78,6 +78,11 @@ section {
     bottom: 34%;
 }
 
+/*-------Answers-----*/
+
+#answer-one, #answer-two, #answer-three, #answer-four, #answer-five {
+    display: none;
+}
 /*-----Footer------*/
 
 .attribution { 
