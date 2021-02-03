@@ -88,6 +88,10 @@ hr {
     bottom: 10px;
 }
 
+.arrow-flip {
+    transform: rotate(180deg);
+}
+
 /*------Main Image Woman------*/
 
 .main-image {
